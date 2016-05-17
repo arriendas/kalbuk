@@ -18,18 +18,28 @@ video#bgvid {
 }
 */
 
+#vigo {
+
+}
+
 video#bgvid { 
     z-index: -100;
-    position: absolute;
-    height: 110%;
+    position:absolute;
+    height: auto;
     width: 100%;
-    margin-top:-5%;	
+    margin:0% auto;
+    padding:0%;
+    margin-top:-5%;
+    background-position:fixed;
 }
 
 
-@media screen and (max-device-width: 800px) {
-    html {
-         background: url(http://unsplash.it/2560/1707?image=961) #000 no-repeat center center fixed;
+
+
+
+@media screen and (max-device-width: 900px) {
+    .container-fluid {
+         background: url(https://unsplash.it/2560/1707?image=961) #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;

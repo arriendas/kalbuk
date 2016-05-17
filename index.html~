@@ -57,17 +57,22 @@
       <div class="site-overlay"></div>
         <header id="home">
 
-<div> <video autoplay id="bgvid" loop>
-  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="http://vimeo-hp-videos.global.ssl.fastly.net/1/1-vp9.webm" type="video/webm">
-<source src="http://vimeo-hp-videos.global.ssl.fastly.net/1/1-vp9.mp4" type="video/mp4">
-</video>
+<div> 
 </div>
 
 <div class="container-fluid">
-      <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
-                <div id="fibu" class="container">
 
+
+<video autoplay id="bgvid" loop>
+ <!--WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+
+<source src="http://vimeo-hp-videos.global.ssl.fastly.net/1/1-vp9.webm" type="video/webm">
+<source src="http://vimeo-hp-videos.global.ssl.fastly.net/1/1-vp9.mp4" type="video/mp4">
+</video>
+
+
+      <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
+                <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-xs-10">
                             <a href="#" class="thumbnail logo">
@@ -82,10 +87,11 @@
                         <h1><small>Snacks protéicos que</small></br>
 						<strong>Alimentan tu día a día</strong></h1>
                         <p>Snacks ricos en Proteínas, Potasio, Zinc y Antioxidantes </p>
-                        <p><a class="btn btn-primary btn-lg" role="button">Más Información</a> <a target="_blank" href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" class="btn btn-lg btn-danger" role="button">Comprar Ahora</a></p>
+                        <p><a class="btn btn-primary btn-lg" role="button">Ver Más</a> <a target="_blank" href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" class="btn btn-lg btn-danger hidden-xs" role="button">Comprar Ahora</a></p>
                     </div>
                 </div>
             </div>
+
         </header>
 
 
@@ -295,6 +301,8 @@ https://source.unsplash.com/
                 </div>
             </div>
         </section>
+
+
         <section id="contact" class="prefooter wow fadeInUp" data-wow-delay="300ms">
             <!-- change the image in style.css to the class .prefooter .container-fluid [approximately row 154] -->
             <div class="container-fluid">

@@ -57,7 +57,7 @@ header .container-fluid {
 header .container-fluid {
     z-index:100;
     padding: 0px;
-    margin: 0px;
+    margin: 0px auto;
     inline:block;
 }
 
